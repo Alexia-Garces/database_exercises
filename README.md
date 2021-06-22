@@ -1,0 +1,1 @@
+A repository contaning SQL exercises.
