@@ -67,7 +67,8 @@ SELECT CONCAT
  COUNT('username') as count
 FROM employees
 GROUP BY username
-ORDER BY count desc;
+ORDER BY count desc;  -- YES there are 285,872 duplicate usernames
+
 -- BONUS: How many duplicate usernames are there?
 SELECT CONCAT
 	(
